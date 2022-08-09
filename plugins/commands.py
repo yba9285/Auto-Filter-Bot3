@@ -36,7 +36,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs 💠', url='https://t.me/Cynitebots'),     
+            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/marathimoviies'),     
             InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help')],[
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'), 
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''), ]]
@@ -71,11 +71,11 @@ async def start(client, message):
             parse_mode="markdown"
             )
         return
-    if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
+    if len(message.command) ==2 and message.command[1] in ["subscribe", "https://t.me/marathimoviieshttps://t.me/marathimoviies", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs 💠', url='https://t.me/cynitebots'),     
+            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/marathimoviies'),     
             InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help')],[
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'), 
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''), ]]
